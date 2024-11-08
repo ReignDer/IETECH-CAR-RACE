@@ -88,4 +88,8 @@ public class GameManager : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}.{2:00}", minutes, seconds, milliseconds);
   
     }
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
